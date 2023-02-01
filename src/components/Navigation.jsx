@@ -10,7 +10,7 @@ const Navigation = () => {
 					<div className='right-flexed'>
 						<a
 							className='nav-links'
-							href='./assets/documents/CV.pdf'
+							href='./docs/CV.pdf'
 							target='_blank'
 						>
 							CV

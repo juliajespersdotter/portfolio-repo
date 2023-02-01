@@ -1,0 +1,111 @@
+/* Projects section */
+
+@use '../variables/responsive' as *;
+@use '../variables/colors';
+
+#projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.project {
+	@media (min-width: $screen-large) {
+		width: 50%;
+		padding: 2%;
+		margin: 0;
+	}
+	background-color: #222525;
+	border-radius: 5px;
+	margin-bottom: 2rem;
+}
+
+@media (min-width: $screen-large) {
+	.projects-wrapper {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		padding-bottom: 3rem;
+		gap: 10px;
+	}
+
+	.projects-wrapper-page {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-bottom: 5rem;
+		gap: 10px;
+	}
+
+	.project-page {
+		width: 45%;
+		margin-bottom: 10px;
+	}
+
+	.height {
+		height: 38rem;
+	}
+}
+
+.project-image {
+	max-width: 100%;
+	border-radius: 5px;
+	height: auto;
+}
+
+.project:hover {
+	box-shadow: 10px 20px 20px 4px rgba(0, 0, 0, 0.36);
+}
+
+.text-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.link-button {
+	padding: 0.5rem;
+	font-size: 14px;
+	width: 35%;
+}
+
+.button-wrapper {
+	display: flex;
+	justify-content: space-between;
+	justify-self: flex-end;
+}
+
+#long-button {
+	width: 20rem;
+	display: block;
+	margin: 0 auto;
+}
+
+.desc-wrapper {
+	padding: 1.2rem;
+	margin: 5px;
+}
+
+.desc-height {
+	height: 21rem;
+}
+
+.desc-wrapper p {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.desc-wrapper button {
+	justify-content: flex-end;
+}
+
+.tools-wrapper {
+	padding-bottom: 1.2rem;
+}
+
+.tools-wrapper span {
+	font-size: 0.6rem;
+	margin-bottom: 0.2rem;
+}

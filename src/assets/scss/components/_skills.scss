@@ -1,0 +1,45 @@
+/* Skills section */
+
+@use '../variables/responsive' as *;
+@use '../variables/colors';
+
+.skills-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.skill {
+	@media (min-width: $screen-small) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 10%;
+	}
+
+	@media (min-width: $screen-xxlarge) {
+		width: 7%;
+	}
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	padding-bottom: 7rem;
+}
+
+.img-fixed {
+	margin-bottom: 1rem;
+	max-width: 100%;
+}
+
+i {
+	font-size: 7rem;
+}
+
+.fa-js-square {
+	color: #f7df1e;
+}

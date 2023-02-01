@@ -1,0 +1,64 @@
+/* Social media links 
+    Footer styles */
+
+@use '../variables/responsive' as *;
+@use '../variables/colors';
+
+footer {
+	@media (min-width: $screen-small) {
+		padding-top: 8rem;
+		font-size: 0.2rem;
+	}
+}
+
+.fa-envelope,
+.fa-linkedin,
+.fa-github {
+	font-size: 1.5rem;
+	color: colors.$primary-blue;
+	background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+	padding: 0.5rem;
+	border-radius: 2rem;
+}
+
+.link-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-wrapper > a {
+	margin: 0;
+	margin-bottom: 0.5rem;
+	font-size: 0.8rem;
+}
+
+.fa-envelope:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+	background: linear-gradient(90deg, #00d9f5 0%, #00f5a0 100%);
+	color: var(--hover-color);
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	padding-bottom: 7rem;
+}
+
+footer p {
+	font-size: 0.8rem;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+@media (min-width: $screen-large) {
+	.link-button {
+		padding: 0.5rem;
+		font-size: 14px;
+		width: 45%;
+	}
+}

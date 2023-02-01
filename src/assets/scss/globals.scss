@@ -1,0 +1,62 @@
+@use './general/typography';
+
+@use './variables/colors';
+@use './variables/responsive' as *;
+
+@use './components/navigation';
+@use './components/button';
+@use './components/hero';
+@use './components/projects';
+@use './components/skills';
+@use './components/socials';
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	@media (min-width: $screen-xxlarge) {
+		font-size: 18px;
+	}
+	font-size: 16px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+body {
+	background-color: colors.$primary-blue;
+	color: colors.$primary-lightblue;
+}
+
+.container {
+	@media (min-width: $screen-small) {
+		margin-left: 5rem;
+		margin-right: 5rem;
+	}
+	@media (min-width: $screen-xxlarge) {
+		margin-left: 14rem;
+		margin-right: 14rem;
+	}
+
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+main {
+	padding-bottom: 25rem;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#dev-background {
+	background-color: rgb(229, 229, 229);
+}

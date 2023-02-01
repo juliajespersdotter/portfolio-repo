@@ -21,7 +21,7 @@ const Hero = () => {
 			</div>
 
 			<div className='img-wrapper'>
-				<img id='me' src='./img/juliajespersdotter.jpeg' alt='' />
+				<img id='me' src='./images/juliajespersdotter.jpeg' alt='' />
 			</div>
 		</div>
 	)

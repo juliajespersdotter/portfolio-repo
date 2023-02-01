@@ -1,0 +1,72 @@
+/* Link and Button styles */
+
+@use '../variables/responsive' as *;
+@use '../variables/colors';
+
+@media (min-width: $screen-large) {
+	.button-wrapper button a {
+		font-size: 0.9rem;
+	}
+}
+
+button {
+	@media (min-width: $screen-xxlarge) {
+		font-size: 1rem;
+	}
+}
+
+button a {
+	color: colors.$primary-blue;
+	font-size: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: colors.$primary-lightblue;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+a:hover {
+	color: colors.$primary-orange;
+}
+
+#text-link {
+	color: colors.$primary-orange;
+}
+
+#text-link:hover {
+	color: colors.$primary-white;
+}
+
+.button-gradient {
+	@media (min-width: $screen-xxlarge) {
+		padding: 0.7rem;
+	}
+	color: colors.$primary-blue;
+	background: linear-gradient(90deg, #00f5a0 0%, #00d9f5 100%);
+	border-radius: 5px;
+	border: none;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+button:hover {
+	background: linear-gradient(90deg, #00d9f5 0%, #00f5a0 100%);
+	color: var(--accent-color);
+}
+
+button a:hover {
+	color: colors.$primary-white;
+}
+
+.right-flexed .button-gradient {
+	width: 7rem;
+}
+
+@media (min-width: $screen-xxlarge) {
+	#long-button {
+		width: 30rem;
+	}
+}

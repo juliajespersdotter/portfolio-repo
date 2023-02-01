@@ -1,0 +1,69 @@
+/* Hero styles */
+
+@use '../variables/responsive' as *;
+@use '../variables/colors';
+
+.section-padding {
+	@media (min-width: $screen-xxlarge) {
+		padding-top: 10vh;
+		padding-bottom: 10vh;
+	}
+	padding-top: 13vh;
+	padding-bottom: 13vh;
+}
+
+#about article {
+	border-left: 2px groove colors.$primary-green;
+	padding-left: 1rem;
+}
+
+#hero {
+	@media (min-width: $screen-small) {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	@media (min-width: $screen-xxlarge) {
+		justify-content: space-between;
+	}
+
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#hero-text {
+	@media (min-width: $screen-small) {
+		width: 50%;
+	}
+	@media (min-width: $screen-xxlarge) {
+		width: 50%;
+	}
+
+	h1 {
+		@media (min-width: $screen-xxlarge) {
+			font-size: 2.8rem;
+		}
+	}
+}
+
+.title {
+	font-family: 'Tinos', serif;
+}
+
+#me {
+	@media (min-width: $screen-xxlarge) {
+		width: 30rem;
+	}
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 2rem;
+	border-radius: 50%;
+}
+
+.img-wrapper {
+	@media (min-width: $screen-small) {
+		width: 40%;
+	}
+	width: 80%;
+	margin: 0 auto;
+}

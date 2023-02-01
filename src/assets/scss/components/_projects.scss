@@ -15,6 +15,7 @@
 		padding: 2%;
 		margin: 0;
 	}
+
 	background-color: #222525;
 	border-radius: 5px;
 	margin-bottom: 2rem;
@@ -45,7 +46,7 @@
 	}
 
 	.height {
-		height: 38rem;
+		height: 100%;
 	}
 }
 
@@ -66,6 +67,7 @@
 }
 
 .link-button {
+	font-weight: 600;
 	padding: 0.5rem;
 	font-size: 14px;
 	width: 35%;
@@ -84,12 +86,15 @@
 }
 
 .desc-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	padding: 1.2rem;
 	margin: 5px;
 }
 
 .desc-height {
-	height: 21rem;
+	height: 100%;
 }
 
 .desc-wrapper p {
@@ -102,10 +107,17 @@
 }
 
 .tools-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0.5rem;
 	padding-bottom: 1.2rem;
-}
 
-.tools-wrapper span {
-	font-size: 0.6rem;
-	margin-bottom: 0.2rem;
+	span {
+		display: flex;
+		align-items: center;
+		height: 2.5rem;
+		font-size: 0.6rem;
+		margin-bottom: 0.2rem;
+	}
 }

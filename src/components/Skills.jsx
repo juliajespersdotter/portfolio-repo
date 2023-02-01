@@ -78,6 +78,78 @@ const Skills = () => {
 						/>
 						<h3>MySQL</h3>
 					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/react.png'
+							alt=''
+						/>
+						<h3>React</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/sass.png'
+							alt=''
+						/>
+						<h3>SCSS</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/csharp.png'
+							alt=''
+						/>
+						<h3>C#</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/firebase.svg'
+							alt=''
+						/>
+						<h3>Firebase</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/azure.png'
+							alt=''
+						/>
+						<h3>Azure</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/drupal.svg'
+							alt=''
+						/>
+						<h3>Drupal</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/vscode.svg'
+							alt=''
+						/>
+						<h3>VS code</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/vs.svg'
+							alt=''
+						/>
+						<h3>Visual Studio</h3>
+					</div>
+					<div className='skill'>
+						<img
+							className='img-fixed'
+							src='./images/jira.png'
+							alt=''
+						/>
+						<h3>Jira</h3>
+					</div>
 				</div>
 			</article>
 		</section>

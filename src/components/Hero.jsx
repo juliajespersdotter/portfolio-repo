@@ -4,11 +4,11 @@ const Hero = () => {
 	return (
 		<div id='hero' className='section-padding'>
 			<div id='hero-text'>
-				<h3 className='title'>FRONT END DEVELOPER</h3>
+				<h3 className='title'>WEB DEVELOPER</h3>
 				<h1>Hi, I'm Julia Jespersdotter</h1>
 				<p>
-					I'm a front end developer student based in Malmö open to
-					internship opportunities to expand my skillset.
+					I'm a web developer student based in Malmö open to work
+					opportunities to expand my skillset.
 				</p>
 				<button className='button-gradient'>
 					<a

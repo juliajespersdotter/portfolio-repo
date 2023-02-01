@@ -5,30 +5,34 @@ const ProjectContainer = () => {
 		<section id='projects' className='section-padding'>
 			<h2>Projects</h2>
 			<div className='projects projects-wrapper'>
-				<article className='project'>
+				<article className='project project-page height'>
 					<img
 						className='project-image'
-						src='./assets/images/almi-page.png'
+						src='../images/screens/landingscreen.png'
 						alt=''
 					/>
 
 					<div className='desc-wrapper desc-height'>
 						<div className='text-wrapper'>
-							<h3>ALMI ONEPAGER DESIGN</h3>
+							<h3>PROGLOG</h3>
 
 							<div className='tools-wrapper'>
-								<span className='button-gradient'>HTML</span>
-								<span className='button-gradient'>UX/UI</span>
-								<span className='button-gradient'>CSS</span>
+								<span className='button-gradient'>REACT</span>
+								<span className='button-gradient'>MYSQL</span>
+								<span className='button-gradient'>NODE</span>
+								<span className='button-gradient'>OAUTH</span>
 								<span className='button-gradient'>
-									BOOTSTRAP
+									SEQUELIZE
 								</span>
 							</div>
+
 							<p>
-								An exercise in design using tools such as Adobe
-								UX, Illustrator and Photoshop to create
-								wireframes and illustrations for this responsive
-								onepager demonstrating a hypothetical service.
+								ProgLog is the web app for organized gamers to
+								store games in lists, review games, rate and
+								favourite them to keep track of what games they
+								have played, are currently playing or just to
+								store their favourite games in an organized
+								manner.
 							</p>
 						</div>
 
@@ -36,7 +40,7 @@ const ProjectContainer = () => {
 							<button className='button-gradient link-button'>
 								<a
 									className='link-button'
-									href='https://priceless-jang-40750f.netlify.app/'
+									href='https://proglog.netlify.app'
 									target='_blank'
 								>
 									Visit page
@@ -45,7 +49,7 @@ const ProjectContainer = () => {
 							<button className='button-gradient link-button'>
 								<a
 									className='link-button'
-									href='https://github.com/juliajespersdotter/almi'
+									href='https://github.com/juliajespersdotter/proglog-client'
 									target='_blank'
 								>
 									Visit repo
@@ -54,30 +58,31 @@ const ProjectContainer = () => {
 						</div>
 					</div>
 				</article>
-				<article className='project'>
+
+				<article className='project project-page height'>
 					<img
 						className='project-image'
-						src='./assets/images/oddhill.png'
+						src='../images/screens/JMDB.png'
 						alt=''
 					/>
 
 					<div className='desc-wrapper desc-height'>
 						<div className='text-wrapper'>
-							<h3>ODD HILL CLONE</h3>
+							<h3>JMDB</h3>
 
 							<div className='tools-wrapper'>
-								<span className='button-gradient'>HTML</span>
-								<span className='button-gradient'>CSS</span>
+								<span className='button-gradient'>REACT</span>
+								<span className='button-gradient'>
+									BOOTSTRAP
+								</span>
 							</div>
 
 							<p>
-								A clone of{' '}
-								<a id='text-link' href='www.oddhill.se'>
-									Odd Hill's
-								</a>{' '}
-								front page made with HTML and CSS to practice
-								mimicking other designs and making it
-								responsive.
+								Julias movie database, a movie website starring
+								all the latest, popular and top rated movies
+								including a search function and rating data for
+								each film. The film data was populated using
+								TMDB API.
 							</p>
 						</div>
 
@@ -85,7 +90,7 @@ const ProjectContainer = () => {
 							<button className='button-gradient link-button'>
 								<a
 									className='link-button'
-									href='https://determined-wescoff-2dff9f.netlify.app/'
+									href='https://tmdb-jmdb.netlify.app/'
 									target='_blank'
 								>
 									Visit page
@@ -94,7 +99,7 @@ const ProjectContainer = () => {
 							<button className='button-gradient link-button'>
 								<a
 									className='link-button'
-									href='https://github.com/juliajespersdotter/odd-hill-clone'
+									href='https://github.com/juliajespersdotter/moviedb-jmdb'
 									target='_blank'
 								>
 									Visit repo
@@ -106,7 +111,7 @@ const ProjectContainer = () => {
 			</div>
 
 			<button className='button-gradient' id='long-button'>
-				<a href='assets/html/projects.html'>SEE ALL PROJECTS</a>
+				<a href='/projects'>SEE ALL PROJECTS</a>
 			</button>
 		</section>
 	)

@@ -15,6 +15,11 @@
 #about article {
 	border-left: 2px groove colors.$primary-green;
 	padding-left: 1rem;
+
+	p {
+		line-height: 1.8;
+		margin-bottom: 1.5rem;
+	}
 }
 
 #hero {
@@ -48,6 +53,7 @@
 
 .title {
 	font-family: 'Tinos', serif;
+	font-weight: 200;
 }
 
 #me {

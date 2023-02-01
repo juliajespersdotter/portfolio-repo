@@ -4,10 +4,8 @@ const Navigation = () => {
 	return (
 		<header>
 			<nav>
-				<img id='logo' src='' alt='' />
-
 				<div className='links-wrapper'>
-					<a href='#'>Home</a>
+					<a href='/'>Home</a>
 
 					<div className='right-flexed'>
 						<a
@@ -17,10 +15,7 @@ const Navigation = () => {
 						>
 							CV
 						</a>
-						<a
-							className='nav-links'
-							href='./assets/html/projects.html'
-						>
+						<a className='nav-links' href='/projects'>
 							Projects
 						</a>
 						<button className='button-gradient'>

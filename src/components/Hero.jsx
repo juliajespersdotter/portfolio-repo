@@ -7,7 +7,7 @@ const Hero = () => {
 				<h3 className='title'>WEB DEVELOPER</h3>
 				<h1>Hi, I'm Julia Jespersdotter</h1>
 				<p>
-					I'm a web developer student based in Malmö open to work
+					I'm a fullstack developer based in Malmö open to
 					opportunities to expand my skillset.
 				</p>
 				<button className='button-gradient'>

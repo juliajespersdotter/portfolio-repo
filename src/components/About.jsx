@@ -7,8 +7,8 @@ const About = () => {
 				<h2>About me</h2>
 				<p>Hello and welcome to my portfolio!</p>
 				<p>
-					My name is Julia, and I am a passionate and dedicated web
-					developer student with 2 years of experience. I have a
+					My name is Julia, and I am a passionate and dedicated
+					fullstack developer with 2 years of experience. I have a
 					strong background in HTML, CSS, JavaScript, and various
 					frameworks, and I am always eager to expand my knowledge and
 					skills.
